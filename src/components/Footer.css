@@ -4,7 +4,7 @@
   height: 3px;
   width: 100%;
 }
-
+/* 
 .footer-container {
   padding: 2rem 0 2rem 0;
   display: flex;
@@ -169,7 +169,7 @@
   color: #125a44;
 }
 
-/* Social Icons */
+/* Social Icons 
 .social-icon-link {
   color: #fff;
   font-size: 24px;
@@ -235,6 +235,6 @@
     justify-content: end;
   }
 }
-
+*/
 @media screen and (max-width: 768px) {
 }
