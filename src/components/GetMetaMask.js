@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { ethers } from "ethers";
+import '../styles/GetMetaMask.css';
+import './Button';
 
 
 const GetMetamask = () => {
@@ -39,13 +41,13 @@ const GetMetamask = () => {
     }
     
         return (
-            <div className="text container" style={{marginTop: "65px"}}>
-                <button className="ui orange button" onClick={() => GetMetamask()}>Connect MetaMask</button>
-                <div className="ui divider"></div>
+            <div className="metamask-container">
+                <button className="btn--metamask" onClick={() => GetMetamask()}>Connect MetaMask</button>
+                {/* <div className="ui divider"></div>
                 <label>Account Address: {accountAddress}</label>
                 <div className="ui divider"></div>
                 <label>Balance: {accountBalance} Eth</label>
-                <div className="ui divider"></div>
+                <div className="ui divider"></div> */}
             </div>
         )
 }

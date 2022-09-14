@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import '../../App.css';
+import '../../styles/App.css';
 import Footer from '../Footer';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Html , SpotLight } from '@react-three/drei';
