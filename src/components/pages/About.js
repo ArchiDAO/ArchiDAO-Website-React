@@ -4,7 +4,8 @@ import Footer from '../Footer';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Html , SpotLight } from '@react-three/drei';
  import Earth from '../Earth';
-import Babi from '../Babi';
+import Photo from '../Photo';
+import Babi from '../BabiCircle';
 
 
 
@@ -25,8 +26,10 @@ function About() {
 
         <OrbitControls enableZoom={false} enablePan={true}/>  
         <Suspense fallback={<Html>loading...</Html>}>
-          <Earth/>  
+           <Earth/>   
+          {/* <Photo /> */}
          {/* <SpotLight castShadow penumbra={10} distance={100} angle={3} attenuation={10} anglePower={8} intensity={30} position={[50, 0, -10]}/> */}
+          {/* <Babi /> */}
          </Suspense>
         </Canvas> 
         
