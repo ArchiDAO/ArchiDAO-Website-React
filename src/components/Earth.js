@@ -32,16 +32,17 @@ export default function Earth()  {
   return (
   
         <>
+
         <mesh  ref={myCloud}>
-        <sphereGeometry args={[30.5, 32, 32]} attach='geometry'/>
+        <sphereGeometry args={[28.5, 32, 32]} attach='geometry'/>
         <meshLambertMaterial  map={cloudMap} transparent opacity={0.05}/>
         </mesh>
         <mesh  ref={myCloud2}>
-        <sphereGeometry args={[30.7, 32, 32]} attach='geometry'/>
+        <sphereGeometry args={[28.7, 32, 32]} attach='geometry'/>
         <meshLambertMaterial  map={cloudMap} transparent opacity={0.05}/>
         </mesh>
         <mesh ref={myMesh}>
-        <sphereGeometry args={[30, 32, 32]} attach='geometry'/>
+        <sphereGeometry args={[28, 32, 32]} attach='geometry'/>
         <meshLambertMaterial displacementScale={0.4} map={colorMap} normalMap={normalMap} displacementMap={displacementMap}/>
         </mesh>
 
