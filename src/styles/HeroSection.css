@@ -1,0 +1,10 @@
+
+.hero-section-container {
+    display: flex;
+    border: solid;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 500px;
+    
+}
