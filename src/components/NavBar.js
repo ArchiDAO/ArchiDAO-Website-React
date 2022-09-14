@@ -1,13 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './NavBar.css';
+import GetMetamask from "./GetMetaMask";
 
 const NavBar = () => {
-
-    // $('.ui.sidebar').sidebar({
-    //     context: $('.ui.pushable.segment'),
-    //     transition: 'overlay'
-    // }).sidebar('attach events', '#mobile_item');
     
     return (
 
@@ -34,6 +30,7 @@ const NavBar = () => {
                     CONTACT
                 </Link>
                 
+                
             {/* <a href="https://twitter.com/archi_dao?lang=en" target="_blank" rel="noreferrer" className="item">
                 <i className="twitter large icon floated right"></i>
             </a>
@@ -51,7 +48,7 @@ const NavBar = () => {
         
         
                 </div>
-        
+                
             </nav>
     );
 

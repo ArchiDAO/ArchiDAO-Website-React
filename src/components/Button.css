@@ -28,6 +28,13 @@
 .btn--primary {
 }
 
+.btn--metamask {
+  width: 150px;
+  height: 35px;
+  background: rgb(255, 149, 0);
+  color: white;
+}
+
 /* .btn--outline {
   padding: 8px 20px;
   /* border: 1px solid var(--primary);

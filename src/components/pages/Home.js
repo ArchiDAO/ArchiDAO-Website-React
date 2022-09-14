@@ -7,12 +7,13 @@ import Footer from '../Footer';
 import Project from '../Project';
 import Portfolio from '../Portfolio';
 import Contact from '../Contact';
-import GetMetamask from "../getMetaMask";
+import GetMetamask from "../GetMetaMask";
 
 
 function Home() {
   return (
     <>
+    <GetMetamask />
     TESTE DE TEXTO
       
       {/* <HeroSection/>
@@ -22,7 +23,7 @@ function Home() {
       <Contact/>
       <Footer/> */}
  
-    {/* <GetMetamask /> */}
+    
 
     </>
   );
