@@ -16,7 +16,7 @@ function About() {
   return (
     <>
     
-       <div style={{ width: "80vw", height: "80vh" }}>
+       <div style={{ width: "100vw", height: "80vh" }}>
        
       <Canvas 
               camera={{position: [10, 0, 80], fov: 45}} >

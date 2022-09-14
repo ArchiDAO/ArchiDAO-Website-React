@@ -6,7 +6,7 @@ import '../styles/Footer.css';
 function Footer() {
   return (
 
-      <div class='social-media'>
+      <div class='footer-container'>
         <div class='social-media-wrap'>
           <small class='website-rights'>ARCHIDAO © 2022</small>
         </div>
