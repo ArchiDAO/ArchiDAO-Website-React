@@ -3,25 +3,27 @@ import '../../styles/App.css';
 
 import HeroSection from '../HeroSection';
 import Footer from '../Footer';
-
+import Value from '../Value';
 import Project from '../Project';
 import Portfolio from '../Portfolio';
 import Contact from '../Contact';
-import GetMetamask from "../GetMetaMask";
+
 
 
 function Home() {
   return (
     <>
-    <GetMetamask />
+
     <HeroSection />
-      
-      {/* <HeroSection/>
-      <Value/>
-      <Project/>
+    <Value/>
+    <Project/>
+    <Footer />
+      {/*
+     
+
       <Portfolio/>
       <Contact/>
-      <Footer/> */}
+ */}
  
     
 
