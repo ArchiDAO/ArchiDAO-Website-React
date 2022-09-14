@@ -14,7 +14,6 @@ function Home() {
   return (
     <>
     <GetMetamask />
-    TESTE DE TEXTO
     <HeroSection />
       
       {/* <HeroSection/>
