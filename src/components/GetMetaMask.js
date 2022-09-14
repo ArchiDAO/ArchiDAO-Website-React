@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { ethers } from "ethers";
-import './GetMetaMask.css';
+import '../styles/GetMetaMask.css';
 import './Button';
 
 

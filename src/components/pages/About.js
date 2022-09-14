@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../App.css';
+import '../../styles/App.css';
 import Footer from '../Footer';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
