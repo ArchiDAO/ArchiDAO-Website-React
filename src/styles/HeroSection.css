@@ -1,7 +1,50 @@
+/* import font gurajada from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Gurajada&display=swap");
+
+html {
+  font-family: "Gurajada", serif;
+}
+
 .hero-section-container {
-  display: flex;
   border: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
+  height: 85vh;
+}
+
+.hero-background {
+  z-index: -1;
+  position: absolute;
+}
+
+.hero-text {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.hero-phrase {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }

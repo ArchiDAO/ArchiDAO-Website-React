@@ -79,10 +79,15 @@ const HeroSection = () => {
 //     O/=2e2; }
 
     return (
-        <>
-        <div className="hero-section-container">
-        <ShadertoyReact fs={fragmentShader} />
+        < >
+        <div className="hero-section-container"  >
+        <ShadertoyReact fs={fragmentShader} className="hero-background"/>
+        <div className="hero-text"> 
+        <h1 className="hero-title">ArchiDAO</h1>
+        <h2 className="hero-phrase">Finding novel ways of connecting Architecture & Blockchain in order to develop potential interventions</h2>
         </div>
+        </div>
+        
         </>
     )
 }
