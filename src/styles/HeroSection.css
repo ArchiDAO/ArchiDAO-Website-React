@@ -1,8 +1,7 @@
 .hero-section-container {
   display: flex;
-  border: solid;
+  border: none;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  min-height: 500px;
 }
