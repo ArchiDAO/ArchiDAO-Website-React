@@ -24,7 +24,7 @@ function About() {
         <ambientLight intensity={0.2} /> 
         <directionalLight position={[5, 5, 5]} intensity={0.1} />  
 
-        <OrbitControls enableZoom={false} enablePan={true}/>  
+        <OrbitControls enableZoom={true} enablePan={true}/>  
         <Suspense fallback={<Html>loading...</Html>}>
            <Earth/>   
           {/* <Photo /> */}
