@@ -18,16 +18,6 @@ function About() {
     <>
     
        <div style={{ width: "100vw", height: "80vh" }}>
-<<<<<<< HEAD
-=======
-       
-      <Canvas 
-              camera={{position: [10, 0, 80], fov: 45}} >
-        <ambientLight intensity={0.2} /> 
-        <directionalLight position={[5, 5, 5]} intensity={0.1} />  
-
-        <OrbitControls enableZoom={true} enablePan={true}/>  
->>>>>>> b8ce3dca15f34efcc4b89cdc6282873ee2dffd1f
         <Suspense fallback={<Html>loading...</Html>}>
            <Earth/>   
           {/* <Photo /> */}
