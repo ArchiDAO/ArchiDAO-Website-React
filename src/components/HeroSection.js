@@ -1,7 +1,10 @@
 import React from "react";
 import '../styles/HeroSection.css';
 import ReactDOM from "react-dom";
+<<<<<<< HEAD
 //import ShadertoyReact from "shadertoy-react";
+=======
+>>>>>>> b8ce3dca15f34efcc4b89cdc6282873ee2dffd1f
 
 const HeroSection = () => {
 
@@ -81,7 +84,10 @@ const HeroSection = () => {
     return (
         < >
         <div className="hero-section-container"  >
+<<<<<<< HEAD
         {/* <ShadertoyReact fs={fragmentShader} className="hero-background"/> */}
+=======
+>>>>>>> b8ce3dca15f34efcc4b89cdc6282873ee2dffd1f
         <div className="hero-text"> 
         <h1 className="hero-title">ArchiDAO</h1>
         <h2 className="hero-phrase">Finding novel ways of connecting Architecture & Blockchain in order to develop potential interventions</h2>
