@@ -58,6 +58,26 @@
     background-color: #34349d;
 }
 
+.navbar-logo {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 30px;
+    color: white;
+    transform: rotate(130deg);
+  }
+  
+  .navbar-logo:hover {
+    font-size: 0;
+    transform: rotate(0deg);
+  }
+  
+  .navbar-logo:hover::after {
+    content: attr(data-hover);
+    color: white;
+    font-size: medium;
+    transition: all 0.9s ease-in-out;
+  }
+  
+
 @media screen and (max-width: 768px) {
 
     .hamburger {
@@ -94,6 +114,6 @@
     }
 
     .navigation-menu.expanded ul {
-        display: inline-flex;
+        display: inline-block;
     }
 }

@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
 import '../styles/Navbar.css';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import About from './pages/About';
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
     const [isNavExpanded, setIsNavExpanded] = useState(false);
 
     return (
             <nav className="navigation">
-                <a href="/" className="brand-name">
-                    ArchiDAO
-                </a>
+            <Link to="/home" className="navbar-logo" data-hover='ARCHIDAO'> 
+            & 
+            </Link>
                 <button className="hamburger" onClick={() => {
                     setIsNavExpanded(!isNavExpanded);
                 }}>
@@ -36,20 +35,14 @@ export default function Navbar() {
                 >
                     <ul>
                     <li>
-                        <a href="/about">About</a>                       
+                        {/* <a href="/about">About</a>  */}
+                        <Link to="/about"> About </Link>
                     </li>
                     <li>
                         <a href="/work">Work</a>
                     </li>
                     <li>
                         <a href="/contact">Contact</a>
-                    </li>
-                    <li>
-                        <Router>
-                            <Routes>
-                            <Route exact path="/about" element={<About/>}/>
-                            </Routes>
-                        </Router>
                     </li>
                     </ul>
                 </div>
