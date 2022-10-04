@@ -1,7 +1,7 @@
 import React from 'react';
 // import '../../styles/App.css';
 
-// import HeroSection from '../HeroSection';
+import HeroSection from '../HeroSection';
 import Footer from '../Footer';
 import Value from '../Value';
 import Project from '../Project';
@@ -14,7 +14,7 @@ function Home() {
   return (
     <>
 
-    {/* <HeroSection /> */}
+    <HeroSection />
     <Value/>
     <Project/>
     <Footer />
