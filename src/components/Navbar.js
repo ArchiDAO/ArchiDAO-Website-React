@@ -7,7 +7,7 @@ export default function Navbar() {
 
     return (
             <nav className="navigation">
-            <Link to="/home" className="navbar-logo" data-hover='ARCHIDAO'> 
+            <Link to="/" className="navbar-logo" data-hover='ARCHIDAO'> 
             & 
             </Link>
                 <button className="hamburger" onClick={() => {
@@ -33,7 +33,7 @@ export default function Navbar() {
                         isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
                     }
                 >
-                    <ul>
+                    <ul className='navbar-items' style={{'margin-right': '20px' }}>
                     <li>
                         {/* <a href="/about">About</a>  */}
                         <Link to="/about"> About </Link>
