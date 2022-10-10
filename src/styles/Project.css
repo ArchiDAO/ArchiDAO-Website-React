@@ -1,8 +1,43 @@
-.project-container {
+/* .project-container {
   display: flex;
   border: solid;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 500px;
+} */
+
+.project-container {
+  /* border: solid; */
+  display: grid;
+  height: 200vw;
+  grid-template-rows: 1fr 1fr 1fr;
+  text-align: center;
+  grid-gap: 10px;
+  background-color: rgb(13, 12, 12);
+  color: rgb(251, 251, 251);
 }
+
+.project {
+  background-color: rgb(82, 82, 82);
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.a {
+  display: grid;
+  /* grid-column: col 3 / span 2; */
+  /* grid-row: row 2; */
+  /* grid-template-columns: 1fr 1fr; */
+  /* border: solid; */
+  /* height: 300px; */
+}
+
+/* .project-b {
+  border: solid;
+} */
+
+/* .project-c {
+  border: solid;
+} */

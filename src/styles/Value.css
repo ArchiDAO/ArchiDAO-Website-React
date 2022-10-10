@@ -1,8 +1,24 @@
-.value-container {
+/* .value-container {
   display: flex;
   border: solid;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 350px;
+} */
+
+.value-container {
+  display: grid;
+  height: 100vw;
+  width: auto;
+  text-align: center;
+  grid-template-rows: 0.5fr 0.5fr 1fr;
+}
+
+.value-proposition {
+  height: 50px;
+}
+
+.value-btn {
+  height: 30px;
 }
