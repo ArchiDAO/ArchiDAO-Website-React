@@ -5,9 +5,10 @@ import '../styles/Value.css';
 const Value = () => {
     return (
         <>
-        <div className="value-container">Value
+        <div className="value-container">
+            <h1> Value Proposition </h1>
         
-        <GetMetamask />
+        {/* <GetMetamask /> */}
         </div>
 
         </>

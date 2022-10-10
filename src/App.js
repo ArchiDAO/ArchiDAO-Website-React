@@ -22,8 +22,7 @@ const App = () => {
                   <Route exact path="/home" element={<Home/>}/>
                   <Route exact path="/about" element={<About/>}/>
                 </Routes>
-              
-
+            
             </Router>
       </>
     );
