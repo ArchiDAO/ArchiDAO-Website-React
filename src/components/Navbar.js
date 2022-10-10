@@ -33,7 +33,7 @@ export default function Navbar() {
                         isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
                     }
                 >
-                    <ul className='navbar-items' style={{'margin-right': '20px' }}>
+                    <ul className='navbar-items'>
                     <li>
                         {/* <a href="/about">About</a>  */}
                         <Link to="/about"> About </Link>

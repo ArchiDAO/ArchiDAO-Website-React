@@ -9,7 +9,7 @@
 
 .value-container {
   display: grid;
-  height: 100vw;
+  height: 300px;
   width: auto;
   text-align: center;
   grid-template-rows: 0.5fr 0.5fr 1fr;

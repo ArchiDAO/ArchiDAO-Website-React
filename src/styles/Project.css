@@ -23,21 +23,21 @@
   color: #fff;
   border-radius: 5px;
   padding: 20px;
+  grid-template-rows: 3fr 1fr;
 }
 
 .a {
   display: grid;
-  /* grid-column: col 3 / span 2; */
-  /* grid-row: row 2; */
-  /* grid-template-columns: 1fr 1fr; */
-  /* border: solid; */
-  /* height: 300px; */
+  border: solid;
+
 }
 
-/* .project-b {
+.b {
+  display: grid;
   border: solid;
-} */
+}
 
-/* .project-c {
+.c {
+  display: grid;
   border: solid;
-} */
+}
