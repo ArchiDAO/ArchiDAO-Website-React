@@ -8,6 +8,8 @@ import Project from '../Project';
 import Portfolio from '../Portfolio';
 import Contact from '../Contact';
 
+import Cards from '../Cards';
+
 
 
 function Home() {
@@ -16,6 +18,7 @@ function Home() {
 
     <HeroSection />
     <Value/>
+    <Cards />
     <Project/>
     <Footer />
       {/*
