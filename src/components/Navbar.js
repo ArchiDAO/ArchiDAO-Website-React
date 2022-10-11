@@ -35,14 +35,15 @@ export default function Navbar() {
                 >
                     <ul className='navbar-items'>
                     <li>
-                        {/* <a href="/about">About</a>  */}
-                        <Link to="/about"> About </Link>
+                        <div>
+                        <Link to="/">Home</Link>
+                        </div>
                     </li>
                     <li>
-                        <a href="/work">Work</a>
+                        <Link to="/about">About</Link>
                     </li>
                     <li>
-                        <a href="/contact">Contact</a>
+                        <Link to="/">Contact</Link>
                     </li>
                     </ul>
                 </div>

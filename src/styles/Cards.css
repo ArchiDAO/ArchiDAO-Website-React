@@ -67,4 +67,8 @@ footer {
 
 .category__01 {
     background-color: #080808;
-  }
+}
+
+.description {
+    font-size: large;
+}

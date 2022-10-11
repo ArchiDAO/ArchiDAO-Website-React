@@ -1,11 +1,8 @@
 import React, { Suspense } from 'react';
-import '../../styles/App.css';
 import Footer from '../Footer';
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Html , SpotLight } from '@react-three/drei';
+import { Html } from '@react-three/drei';
  import Earth from '../Earth';
-import Photo from '../Photo';
-import Babi from '../BabiCircle';
+
 
 
 

@@ -1,0 +1,16 @@
+{
+    "Projects": [{
+        "id": "1",
+        "name": "Metaverse: Project 1",
+        "description": "Metaverse design project in Decentraland",
+        "image": "",
+        "category": "Metaverse"
+    },
+    {
+        "id": "2",
+        "name": "CryptoTwin: Project 1",
+        "description": "3D model is imported into the Decentraland Metaverse",
+        "image": "",
+        "category": "CryptoTwin"
+    }]
+}
