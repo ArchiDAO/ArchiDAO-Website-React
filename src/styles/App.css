@@ -18,3 +18,16 @@ body {
   display: table-cell;
   vertical-align: top;
 }
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin: 500px 0 50px;
+}
+
+.scroll {
+  padding: 0 0 200vh;
+}
