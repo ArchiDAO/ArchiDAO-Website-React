@@ -10,12 +10,9 @@ import Value from '../Value';
 import Cards from '../Cards';
 import locomotiveScroll from "locomotive-scroll";
 
-export const scrollRef = React.createRef();
-
 function Home() {
-
+  const scrollRef = React.createRef();
  
-
   useEffect(() => {
     const scroll = new locomotiveScroll({
       el: scrollRef.current,
